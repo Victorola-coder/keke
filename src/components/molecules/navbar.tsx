@@ -3,8 +3,8 @@ import { Dropdown, Language, Logo } from "../svgs";
 
 export default function Navbar() {
   return (
-    <header className="bg-[#212121]">
-      <nav className="mx-[90px] py-[20px] flex flex-row items-center justify-between">
+    <header className="">
+      <nav className="py-[20px] flex flex-row items-center justify-between">
         <figure className="flex flex-row items-center gap-[14px]">
           <img
             alt="logo"

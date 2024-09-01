@@ -11,8 +11,9 @@
 }
 
 body {
-  color: black;
-  background-color: #71a83881;
+  color: white;
+  /* background-color: #71a83881; */
+  background-color: #212121;
   font-family: "sOuTh Afirkas 2100", sans-serif;
 }
 

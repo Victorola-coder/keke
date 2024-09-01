@@ -1,9 +1,15 @@
 // import { SEO } from "../components";
 
+import { Hero } from "../components/elements";
+import { Navbar } from "../components/molecules";
+
 export default function Home() {
   return (
-    <div className=" w-full  relative  ">
-      {/* <SEO title="Keke" description="" /> */}
-    </div>
+    <>
+      <main className="mx-[80px]">
+        <Navbar />
+        <Hero />
+      </main>
+    </>
   );
 }

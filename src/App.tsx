@@ -7,13 +7,12 @@ import {
 import { useEffect } from "react";
 import { Scroll } from "./animation";
 import { Home, NotFound } from "./pages";
-import { Footer, Navbar } from "./components/molecules";
+import { Footer } from "./components/molecules";
 
 // this is just for dome paages you want to repeat same component
 const Root = () => {
   return (
     <div>
-      <Navbar />
       <ScrollRestoration />
       <Outlet />
       <Footer />
