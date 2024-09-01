@@ -7,7 +7,7 @@ import {
   META_KEYWORDS,
   META_TYPE,
   META_URL,
-} from "../constants";
+} from "../../constants";
 
 interface Props {
   title: string;
