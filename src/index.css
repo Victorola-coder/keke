@@ -45,10 +45,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* FONTS */
-@font-face {
+/* @font-face {
   font-family: "custom-fonts";
   src: url("link_to_custom_font.otf") format("truetype");
-}
+} */
 
 /* IF extenstio IS ttf */
 
